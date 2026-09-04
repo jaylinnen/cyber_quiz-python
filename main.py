@@ -16,8 +16,8 @@ elif answer1 == 'B':
     incorrect += 1
     print("Incorrect")
 elif answer1 == 'C':
-    print("Correct")
     correct += 1
+    print("Correct")
 elif answer1 == 'D':
     incorrect += 1
     print("Incorrect")
