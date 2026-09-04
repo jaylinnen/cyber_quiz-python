@@ -2,19 +2,20 @@
 
 ## About the Project
 
-This is a beginner Python project that tests the user’s knowledge of basic cybersecurity practices. The quiz asks three multiple-choice questions about passwords, suspicious emails, and two-factor authentication.
+This is a beginner Python project that tests the user’s knowledge of basic cybersecurity practices. The quiz asks five multiple-choice questions about password security, suspicious emails, two-factor authentication, malware, and public Wi-Fi security.
 
 After completing the quiz, the program displays the number of correct and incorrect answers, calculates the user’s percentage, and assigns a letter grade.
 
 ## Features
 
-* Asks three cybersecurity-related questions
+* Asks five cybersecurity-related questions
 * Accepts uppercase and lowercase answers
 * Removes accidental spaces from user input
 * Detects invalid answers
 * Tracks correct and incorrect responses
+* Provides immediate feedback after each answer
 * Calculates and rounds the final percentage
-* Assigns a letter grade based on the score
+* Assigns a letter grade based on the final percentage
 
 ## Python Concepts Used
 
@@ -26,7 +27,9 @@ After completing the quiz, the program displays the number of correct and incorr
 * The `.strip()` method
 * The `.upper()` method
 * Basic calculations
+* Counters
 * The `round()` function
+* Basic input validation
 
 ## How to Run the Program
 
@@ -46,20 +49,32 @@ python3 cybersecurity_quiz.py
 | Correct Answers | Percentage | Grade |
 | --------------: | ---------: | :---: |
 |               0 |       0.0% |   F   |
-|               1 |      33.3% |   F   |
-|               2 |      66.7% |   D   |
-|               3 |     100.0% |   A   |
+|               1 |      20.0% |   F   |
+|               2 |      40.0% |   F   |
+|               3 |      60.0% |   D   |
+|               4 |      80.0% |   B   |
+|               5 |     100.0% |   A   |
+
+## Cybersecurity Topics
+
+* Strong password practices
+* Phishing and suspicious emails
+* Two-factor authentication
+* Malware
+* Public Wi-Fi security
 
 ## Future Improvements
 
-* Add more cybersecurity questions
+* Allow the user to retry after entering an invalid answer
 * Allow the user to retake the quiz
+* Add more cybersecurity questions
 * Randomize the order of the questions
 * Provide explanations for incorrect answers
 * Organize the program using functions
+* Store questions and answers using lists or dictionaries
 * Add different difficulty levels
 
 ## Author
 
-Jason Linnen
+Jason Linnen  
 Computer Science student interested in cybersecurity
